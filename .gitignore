@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local configuration file (rename to local_settings.py to make it work)
+instance/config.py
+
+# Generated files
+instance/
+*.pyc
+
+# Environment variables file
+.env
+
+# IDE files
+.vscode/
+.idea/
+
+# Compiled Python files
+*.pyc
+
+# Package directories
+*.egg-info/
+dist/
+
+# Ignore the virtual environment folder
+venv/
+
+# Ignore the Python interpreter
+
+# Ignore temporary files
+temp/*
+
+# Ignore input and output files
+static/input/images/*
+static/output/images/*
+
+## Ignore databse file
+databse/*
